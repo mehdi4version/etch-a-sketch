@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="header">Etch-A-Sketch</h1>
+    </header>
+    <main>
+        <div id="control-panel">
+            <h3>Control Panel</h3>
+            <div id="control-btns">
+                <button id="random-btn">Random Fill</button>
+                <div id="color-options">
+                    <label for="color-picker">Choose a color</label>
+                    <input type="color" name="color-picker" id="color-picker" value="#00000">
+                </div>
+                <div id="grid-options">
+                    <label for="grid-slider">Grid Size</label>
+                    <input type="range" name="grid-slider" id="grid-slider" min="1" max="50" value="16">
+                    <span id="grid-value"></span>
+                </div>
+                <button id="random-color">Random Color</button>
+                <button id="rainbow-btn">Rainbow</button>
+                <button id="darken-btn">Shading</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </div>
+        <div id="container">
+        
+        </div>
+    </main>
+    
+</body>
+</html>
